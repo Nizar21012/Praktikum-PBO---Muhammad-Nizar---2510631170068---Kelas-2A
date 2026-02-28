@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package tugas1;
+
+/**
+ *
+ * @author Kuro
+ */
+public class DemoNilai {
+    public static void main(String[] args) {
+        Nilai nilai = new Nilai();
+        nilai.nim = "2510631170068";
+        nilai.nama = "Muhammad Nizar";
+        nilai.absen = 90;
+        nilai.tugas = 85;
+        nilai.uts = 80;
+        nilai.uas = 95;
+        nilai.CetakNilai();
+    }
+}
